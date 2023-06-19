@@ -21,7 +21,7 @@ body {
 }
 
 #section1 {
-  height: 521px;
+  height: 561px;
 }
 
 b {
@@ -35,6 +35,19 @@ b {
 .social:hover {
   color: white;
   transition-delay: 0.3s;
+}
+
+#section2 {
+  color: black;
+}
+
+#foto1 {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.skills {
+  color: #dc3545;
 }
 
 #footer {
