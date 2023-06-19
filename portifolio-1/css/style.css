@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+#hamb {
+  border: 1px solid rgba(255, 255, 255, 0.178);
+}
+
+/*# sourceMappingURL=style.css.map */
