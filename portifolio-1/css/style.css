@@ -20,6 +20,10 @@ body {
   background-color: black;
 }
 
+#contatos {
+  color: #dc3545;
+}
+
 #section1 {
   height: 561px;
 }
@@ -44,10 +48,20 @@ b {
 #foto1 {
   width: 200px;
   border-radius: 10px;
+  border: 2px solid black;
 }
 
 .skills {
   color: #dc3545;
+}
+
+#icones {
+  color: #00a79d;
+}
+
+.ico:hover {
+  color: black;
+  transition-delay: 0.3s;
 }
 
 #footer {
