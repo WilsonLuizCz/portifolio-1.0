@@ -40,6 +40,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!--Data Aos-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body id="body">
     <header class="header" id="menu1">
@@ -85,7 +88,13 @@
         <h1 class="text-center mt-5">Wilson Czelusniaki</h1>
         <h5 class="text-center">Front-end developer</h5>
         <br />
-        <p class="text-center p-4 my-3 mx-2">
+        <p
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="2000"
+          class="text-center p-4 my-3 mx-2"
+        >
           Eu desenvolvo <b>sites otimizados</b> com estratégias de
           <b>marketing digital</b> para empresas e profissionais autônomos.
         </p>
@@ -112,11 +121,13 @@
           class="img-fluid"
           alt="Imagem"
           id="foto1"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
         />
       </div>
 
       <div class="container textoSobre col-10">
-        <p class="p-5">
+        <p data-aos="zoom-in" data-aos-duration="2000" class="p-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, nostrum
           at? Ipsa quae tenetur saepe magni illum! Quae cum sequi non minus
           autem velit delectus porro dolores assumenda quaerat corporis, maxime
@@ -151,5 +162,11 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+
+    <!--Data Aos JS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
